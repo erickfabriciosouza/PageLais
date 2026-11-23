@@ -1,193 +1,330 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css?v=2">
-    <title>Psi | Laís Anias</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psicóloga Laís Anias | Terapia Cognitivo-Comportamental | CRP 03/19783</title>
+  <meta name="description" content="Psicóloga Laís Anias (CRP 03/19783). Atendimento online em Terapia Cognitivo-Comportamental, avaliação neuropsicológica, psicometria e orientação vocacional.">
+  <meta name="theme-color" content="#a04a3a">
+
+  <!-- Compartilhamento em redes sociais e WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Psicóloga Laís Anias | CRP 03/19783">
+  <meta property="og:description" content="Terapia Cognitivo-Comportamental com atendimento online. Agende sua primeira sessão.">
+  <meta property="og:image" content="img/og-image.jpg">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="img/lais-hero.webp" type="image/webp">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "Laís Anias",
+    "description": "Psicóloga clínica, Terapia Cognitivo-Comportamental. CRP 03/19783.",
+    "telephone": "+55-75-98861-2857",
+    "email": "psi.laisanias@gmail.com",
+    "image": "img/lais-hero.jpg"
+  }
+  </script>
 </head>
 <body>
-    <nav class="nav">
-        <ul class="nome">
-            <li>Psicóloga Laís Anias</li>
-        </ul>
-        
-        <!-- Ícone do Menu Hambúrguer -->
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ CABEÇALHO ============ -->
+  <header class="topo" id="topo">
+    <div class="container topo__inner">
+      <a href="#inicio" class="marca" aria-label="Psicóloga Laís Anias, voltar ao início">
+        <span class="marca__nome">Laís Anias</span>
+        <span class="marca__sub">Psicóloga · CRP 03/19783</span>
+      </a>
+
+      <button class="menu-btn" id="menu-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Navegação principal">
+        <a href="#atuacao">Atuação</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#abordagem">Abordagem</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#contato" class="menu__cta">Agendar consulta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ INÍCIO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__texto revelar">
+          <p class="selo">Atendimento online</p>
+          <h1>Cuidando da sua <em>saúde mental</em>, no seu tempo.</h1>
+          <p class="hero__lead">O cuidado começa quando você escolhe olhar para si. Na terapia, você entende suas emoções e encontra novas formas de viver melhor.</p>
+
+          <div class="hero__acoes">
+            <a class="btn btn--primario" href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+            <a class="btn btn--linha" href="#como-funciona">Como funciona</a>
+          </div>
+
+          <ul class="credenciais">
+            <li>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg>
+              CRP 03/19783
+            </li>
+            <li>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20"/></svg>
+              Atendimento online
+            </li>
+            <li>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M12 5v13"/></svg>
+              Terapia Cognitivo-Comportamental
+            </li>
+          </ul>
         </div>
 
-        <ul class="ul" id="nav-links">
-            <li class="li"><a href="#inicio">Início</a></li>
-            <li class="li"><a href="#sobre">Sobre</a></li>
-            <li class="li"><a href="#experiencia">Experiência</a></li>
-            <li class="li"><a href="#abordagem">Abordagem</a></li>
-            <li class="li"><a href="#faq">Dúvidas</a></li>
-            <li class="li"><a href="#contato">Agendar Consulta</a></li>
-        </ul>
-    </nav>
-    
-    <section id="section">
-        <div id="inicio" class="inicio">
-            <div class="texto1">
-                <br>
-                <br>
-                <p style="font-size: 45px; font-family:'Poppins', sans-serif; margin-top: 20px; margin-left: 10px;font-weight: bold;">Cuidando da sua saúde mental</p>
-                <br>
-                <br>
-                <p style="font-family:'Poppins', sans-serif; margin-left: 10px; align-content:center; text-align: justify; font-size: 20px; ">O cuidado começa quando você escolher olhar para si. Entenda suas emoções e encontre novas formas de viver melhor. </p>
-                <ul class="subtexto1">
-                    <li><img src="./img/distintivo-de-fita.png" alt="título" width="20px" height="20px">CRP: 03/19783</li>
-                    <li><img src="./img/computador-portatil.png" alt="notebook" width="20px" height="20px">Atendimento Online</li>
-                    <li><img src="./img/cerebro.png" alt="cerebro" width="20px" height="20px">Terapia Cognitivo Comportamental</li>
-                </ul>
-            </div>
-            <div class="foto1"></div> 
+        <div class="hero__foto revelar">
+          <picture>
+            <source srcset="img/lais-hero.webp" type="image/webp">
+            <img src="img/lais-hero.jpg" alt="Psicóloga Laís Anias sorrindo, segurando livros" width="867" height="1300" fetchpriority="high">
+          </picture>
         </div>
-        
-        <div id="atuacao">
-            <header>
-                <br>
-                <h1 >Áreas de Atuação</h1>
-                <br>
-                <p style="font-size: 20px;">A terapia pode te ajudar a lidar com diversas questões. <br>
-                Veja algumas das minhas áreas de atuação onde eu posso lhe auxiliar:</p>
-            </header>
-            <ul>
-                <li>Terapia Cognitivo Comportamental</li>
-                <li>Avaliação Neuropsicológica</li>
-                <li>Psicometria</li>
-                <li>Orientação vocacional</li>
-            </ul>
-            <div class="questao">
-                <header>
-                    <h1>Sua questão não está listada?</h1>
-                </header>
-                <br>
-                <p>Cada pessoa é única. Me conte sobre o seu caso, vamos encontrar juntos o melhor caminho.</p>
-                <br>
-                <a href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank"><button class="button">Entre em contato</button></a>
-            </div>
-        </div>
-        <br>
-        <br>
-        
-        <div id="sobre" class="sobre">
-            <div class="texto2">
-                <header>
-                    <h1>Sobre mim</h1>
-                </header>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptas nulla pariatur, velit expedita sint molestias quos, porro labore veritatis earum praesentium sed alias officiis dolorem recusandae maxime veniam unde cumque ab, eaque voluptatibus debitis repellendus.</p>
-                <br>
-                <p>Eius rem ratione debitis quis, facere ea eligendi, cumque natus magnam maxime illum blanditiis excepturi soluta nisi quisquam ipsa vero at possimus, doloribus quas praesentium sit! Maxime voluptate sequi magni nemo corrupti cupiditate? Quae corrupti aut quasi placeat ab nihil libero, possimus maxime odio at labore officiis molestiae optio sit voluptatem soluta velit doloribus iste vel.</p>
-                <br>
-                <p>Iusto quos earum ipsa inventore, dicta illo deleniti recusandae aperiam fugit iure tenetur repellat facilis nostrum laudantium perspiciatis consequuntur deserunt laboriosam? Deserunt quaerat maiores aspernatur tenetur itaque sunt, quod suscipit sit blanditiis ad voluptatem possimus.</p>
-            </div>
-            <div class="foto2"></div>
-        </div>
-        
-        <div id="experiencia" class="experiencia">
-            <br>
-            <br>
-            <header>
-                <h1 class="tituloexperiencia">Experiência Profissional</h1>
-            </header>
-            <section class="containerexperiencia">
-                <div class="experiencia1">
-                    <div class="topo-card">
-                        <img src="./img/psicologia.png" alt="cerebro" width="30px" height="30px">
-                        <h2 class="tituloexperiencia2">Psicóloga Clínica</h2>
-                    </div>
-                    <p>experiencia1</p>
-                </div>
-                <div class="experiencia2">
-                    <div class="topo-card">
-                        <img src="./img/coracao.png" alt="cerebro" width="30px" height="30px">
-                        <h2 class="tituloexperiencia2">Psicóloga Clínica Online</h2>
-                    </div>
-                    <br>
-                    <p>experiencia2</p>
-                </div>
-                <div class="experiencia3">
-                    <div class="topo-card">
-                        <img src="./img/depressao.png" alt="cerebro" width="30px" height="30px">
-                        <h2 class="tituloexperiencia2">Neuropsicologia</h2>
-                    </div>
-                    <br>
-                    <p>experiencia3</p>
-                </div>
-                <div class="experiencia4">
-                    <div class="topo-card">
-                        <img src="./img/graduacao.png" alt="cerebro" width="30px" height="30px">
-                        <h2 class="tituloexperiencia2">Supervisão</h2>
-                    </div>
-                    <br>
-                    <p>experiencia4</p>
-                </div>
-            </section>
-            <br>
-        </div>
-        
-        <div id="abordagem" class="abordagem">
-            <header>
-                <h1>Minha Abordagem</h1>
-            </header>
-            <div class="container-abordagem">
-                <img src="./img/cerebro.png" alt="Ícone TCC" width="60px" height="60px">
-                <h2>Terapia Cognitivo Comportamental (TCC)</h2>
-                <br>
-                <p>A Terapia Cognitivo Comportamental é uma abordagem focada na forma como nossos pensamentos, sentimentos e comportamentos interagem. É uma terapia estruturada, colaborativa e focada na resolução de problemas do presente.</p>
-                <br>
-                <p>O objetivo é ajudar você a identificar padrões de pensamento que causam sofrimento e desenvolver habilidades práticas para lidar com os desafios do dia a dia, promovendo mais autonomia, autoconhecimento e qualidade de vida.</p>
-            </div>
-        </div>
-
-        <!-- Nova Seção de Dúvidas (FAQ) -->
-        <div id="faq" class="faq">
-            <header>
-                <h1>Perguntas Frequentes</h1>
-            </header>
-            <div class="faq-container">
-                <details>
-                    <summary>Como funciona a primeira sessão?</summary>
-                    <p>A primeira sessão é um momento de acolhimento e escuta. Vamos conversar sobre o que te trouxe à terapia, sua história de vida e entender como a TCC pode te ajudar.</p>
-                </details>
-                <details>
-                    <summary>Qual a duração e frequência das sessões?</summary>
-                    <p>As sessões duram em média 50 minutos e, inicialmente, acontecem uma vez por semana. Com a evolução do tratamento, a frequência pode ser reavaliada em conjunto.</p>
-                </details>
-                <details>
-                    <summary>Você atende por plano de saúde?</summary>
-                    <p>Os atendimentos são particulares. No entanto, forneço um recibo detalhado para que você possa solicitar o reembolso junto ao seu plano de saúde, caso ele ofereça essa opção.</p>
-                </details>
-            </div>
-        </div>
-
-        <div id="contato" class="contato">
-            <header>
-                <h1>Pronto para começar?</h1>
-            </header>
-            <p class="texto-contato">Dê o primeiro passo rumo ao seu bem-estar emocional. Entre em contato para agendarmos sua primeira sessão ou para tirar qualquer dúvida sobre o processo terapêutico.</p>
-            
-            <div class="botoes-contato">
-                <a href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="btn-principal">
-                    Agendar pelo WhatsApp
-                </a>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=psi.laisanias@gmail.com" target="_blank" class="btn-secundario">
-                    Enviar um E-mail
-                </a>
-            </div>
-        </div>
+      </div>
     </section>
 
-    <a href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank">
-        <img class="wpp" src="./img/wpp.png" alt="whatsapp" width="50px" height="50px">
-    </a>
-    <script src="./js/script.js"></script>
+    <!-- ============ ÁREAS DE ATUAÇÃO ============ -->
+    <section class="secao" id="atuacao">
+      <div class="container">
+        <header class="secao__cabeca revelar">
+          <p class="sobretitulo">Áreas de atuação</p>
+          <h2>Como a terapia pode te ajudar</h2>
+          <p>A terapia ajuda a lidar com diferentes questões. Estas são as áreas em que eu posso te acompanhar:</p>
+        </header>
 
-    <footer></footer>  
+        <div class="cards">
+          <article class="card revelar">
+            <span class="card__icone"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"/><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"/><path d="M12 5v13"/></svg></span>
+            <h3>Terapia Cognitivo-Comportamental</h3>
+            <p>Psicoterapia individual focada em entender como pensamentos, emoções e comportamentos se relacionam, com estratégias práticas para o dia a dia.</p>
+          </article>
+          <article class="card revelar">
+            <span class="card__icone"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 3h6v4l4 9a3 3 0 0 1-2.7 4H7.7A3 3 0 0 1 5 16l4-9Z"/><path d="M8 12h8"/></svg></span>
+            <h3>Avaliação Neuropsicológica</h3>
+            <p>Investigação de funções como atenção, memória e raciocínio, que apoia diagnósticos e orienta o tratamento e as decisões da família ou da escola.</p>
+          </article>
+          <article class="card revelar">
+            <span class="card__icone"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>
+            <h3>Psicometria</h3>
+            <p>Aplicação e interpretação de testes psicológicos validados, com devolutiva clara sobre os resultados.</p>
+          </article>
+          <article class="card revelar">
+            <span class="card__icone"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5Z"/></svg></span>
+            <h3>Orientação Vocacional</h3>
+            <p>Apoio na escolha profissional, a partir do autoconhecimento sobre interesses, habilidades e valores.</p>
+          </article>
+        </div>
+
+        <aside class="destaque revelar">
+          <div>
+            <h3>Sua questão não está listada?</h3>
+            <p>Cada pessoa é única. Me conte sobre o seu caso e vamos encontrar juntos o melhor caminho.</p>
+          </div>
+          <a class="btn btn--primario" href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener">Entre em contato</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="secao secao--creme" id="sobre">
+      <div class="container sobre__grid">
+        <div class="galeria revelar" aria-label="Fotos da psicóloga Laís Anias">
+          <picture class="galeria__item ativa">
+            <source srcset="img/lais-1.webp" type="image/webp">
+            <img src="img/lais-1.jpg" alt="Laís Anias sorrindo, sentada" width="867" height="1300" loading="lazy">
+          </picture>
+          <picture class="galeria__item">
+            <source srcset="img/lais-2.webp" type="image/webp">
+            <img src="img/lais-2.jpg" alt="Laís Anias em pé, com as mãos juntas" width="867" height="1300" loading="lazy">
+          </picture>
+          <picture class="galeria__item">
+            <source srcset="img/lais-3.webp" type="image/webp">
+            <img src="img/lais-3.jpg" alt="Laís Anias segurando um notebook e uma xícara" width="867" height="1300" loading="lazy">
+          </picture>
+          <picture class="galeria__item">
+            <source srcset="img/lais-4.webp" type="image/webp">
+            <img src="img/lais-4.jpg" alt="Laís Anias escrevendo em um caderno, com livros de psicologia na mesa" width="900" height="1260" loading="lazy">
+          </picture>
+          <div class="galeria__pontos" role="tablist" aria-label="Escolher foto"></div>
+        </div>
+
+        <div class="sobre__texto revelar">
+          <p class="sobretitulo">Sobre mim</p>
+          <h2>Olá, eu sou a Laís</h2>
+          <!-- EDITAR: substitua estes parágrafos pela apresentação real da Laís (formação, trajetória, o que a motiva). -->
+          <p>Sou psicóloga clínica, registrada no Conselho Regional de Psicologia da Bahia (CRP 03/19783), e trabalho com a Terapia Cognitivo-Comportamental como base do meu atendimento.</p>
+          <p>Acredito em uma terapia acolhedora e, ao mesmo tempo, prática: um espaço seguro para você falar sobre o que sente e, juntos, construirmos estratégias para lidar com os desafios do dia a dia.</p>
+          <p>Além da psicoterapia, atuo com avaliação neuropsicológica, psicometria e orientação vocacional, sempre com ética, sigilo e respeito à história de cada pessoa.</p>
+          <a class="link-seta" href="#contato">Vamos conversar <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIÊNCIA ============ -->
+    <section class="secao" id="experiencia">
+      <div class="container">
+        <header class="secao__cabeca revelar">
+          <p class="sobretitulo">Experiência profissional</p>
+          <h2>Onde eu atuo</h2>
+        </header>
+        <!-- EDITAR: complete cada card com a experiência real (instituição, período, atividades). -->
+        <div class="experiencias">
+          <article class="exp revelar">
+            <h3>Psicóloga Clínica</h3>
+            <p>Psicoterapia individual com base na TCC, com acompanhamento estruturado e foco em objetivos definidos em conjunto.</p>
+          </article>
+          <article class="exp revelar">
+            <h3>Psicóloga Clínica Online</h3>
+            <p>Sessões por videochamada, com o mesmo cuidado e sigilo do atendimento presencial, de onde você estiver.</p>
+          </article>
+          <article class="exp revelar">
+            <h3>Neuropsicologia</h3>
+            <p>Avaliações neuropsicológicas com aplicação de testes, entrevistas e relatório com devolutiva.</p>
+          </article>
+          <article class="exp revelar">
+            <h3>Supervisão</h3>
+            <p>Acompanhamento e discussão de casos clínicos, com olhar técnico e ético sobre a prática profissional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO FUNCIONA ============ -->
+    <section class="secao secao--creme" id="como-funciona">
+      <div class="container">
+        <header class="secao__cabeca revelar">
+          <p class="sobretitulo">Como funciona</p>
+          <h2>Começar é mais simples do que parece</h2>
+        </header>
+        <ol class="passos">
+          <li class="passo revelar">
+            <span class="passo__num">1</span>
+            <h3>Entre em contato</h3>
+            <p>Mande uma mensagem pelo WhatsApp ou e-mail. Combinamos o melhor dia e horário para você.</p>
+          </li>
+          <li class="passo revelar">
+            <span class="passo__num">2</span>
+            <h3>Primeira sessão</h3>
+            <p>Um momento de acolhimento e escuta para entender o que te trouxe à terapia e como a TCC pode ajudar.</p>
+          </li>
+          <li class="passo revelar">
+            <span class="passo__num">3</span>
+            <h3>Acompanhamento</h3>
+            <p>Sessões semanais de cerca de 50 minutos, com a frequência reavaliada em conjunto ao longo do processo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ABORDAGEM ============ -->
+    <section class="secao" id="abordagem">
+      <div class="container abordagem revelar">
+        <p class="sobretitulo">Minha abordagem</p>
+        <h2>Terapia Cognitivo-Comportamental (TCC)</h2>
+        <p>A TCC é uma abordagem focada na forma como nossos pensamentos, sentimentos e comportamentos interagem. É uma terapia estruturada, colaborativa e voltada para a resolução de problemas do presente.</p>
+        <p>O objetivo é ajudar você a identificar padrões de pensamento que causam sofrimento e desenvolver habilidades práticas para lidar com os desafios do dia a dia, promovendo mais autonomia, autoconhecimento e qualidade de vida.</p>
+        <ul class="pilares">
+          <li>Estruturada</li>
+          <li>Colaborativa</li>
+          <li>Focada no presente</li>
+          <li>Baseada em evidências</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="secao secao--creme" id="faq">
+      <div class="container faq">
+        <header class="secao__cabeca revelar">
+          <p class="sobretitulo">Dúvidas</p>
+          <h2>Perguntas frequentes</h2>
+        </header>
+        <div class="faq__lista revelar">
+          <details>
+            <summary>Como funciona a primeira sessão?</summary>
+            <div class="faq__resposta"><p>A primeira sessão é um momento de acolhimento e escuta. Vamos conversar sobre o que te trouxe à terapia, sua história de vida e entender como a TCC pode te ajudar.</p></div>
+          </details>
+          <details>
+            <summary>Qual a duração e a frequência das sessões?</summary>
+            <div class="faq__resposta"><p>As sessões duram em média 50 minutos e, inicialmente, acontecem uma vez por semana. Com a evolução do tratamento, a frequência pode ser reavaliada em conjunto.</p></div>
+          </details>
+          <details>
+            <summary>Como funciona o atendimento online?</summary>
+            <div class="faq__resposta"><p>As sessões acontecem por videochamada, em uma plataforma segura. Basta um celular ou computador com internet e um lugar reservado, onde você se sinta à vontade para conversar.</p></div>
+          </details>
+          <details>
+            <summary>Você atende por plano de saúde?</summary>
+            <div class="faq__resposta"><p>Os atendimentos são particulares. No entanto, forneço um recibo detalhado para que você possa solicitar o reembolso junto ao seu plano de saúde, caso ele ofereça essa opção.</p></div>
+          </details>
+          <details>
+            <summary>O que é conversado na terapia fica em sigilo?</summary>
+            <div class="faq__resposta"><p>Sim. O sigilo é um dever ético da psicóloga, previsto no Código de Ética Profissional do Psicólogo, e vale tanto para o atendimento presencial quanto para o online.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="contato" id="contato">
+      <div class="container contato__inner revelar">
+        <h2>Pronto para começar?</h2>
+        <p>Dê o primeiro passo rumo ao seu bem-estar emocional. Entre em contato para agendar sua primeira sessão ou tirar qualquer dúvida sobre o processo terapêutico.</p>
+        <div class="contato__botoes">
+          <a class="btn btn--whats" href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a class="btn btn--claro" href="mailto:psi.laisanias@gmail.com?subject=Agendamento%20de%20consulta">Enviar um e-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="rodape">
+    <div class="container rodape__grid">
+      <div>
+        <p class="rodape__nome">Laís Anias</p>
+        <p>Psicóloga · CRP 03/19783</p>
+        <p>Terapia Cognitivo-Comportamental · Atendimento online</p>
+      </div>
+      <div>
+        <p class="rodape__titulo">Contato</p>
+        <p><a href="https://wa.me/5575988612857" target="_blank" rel="noopener">(75) 98861-2857</a></p>
+        <p><a href="mailto:psi.laisanias@gmail.com">psi.laisanias@gmail.com</a></p>
+      </div>
+      <div>
+        <p class="rodape__titulo">Em caso de crise</p>
+        <p>Este site não oferece atendimento de urgência. Se você estiver em sofrimento intenso, ligue para o CVV no <a href="tel:188">188</a> (24 horas, gratuito) ou procure o serviço de emergência mais próximo (SAMU <a href="tel:192">192</a>).</p>
+      </div>
+    </div>
+    <p class="rodape__copy">© <span id="ano"></span> Laís Anias. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a class="whats-flutuante" href="https://wa.me/5575988612857?text=Ol%C3%A1%21%20Acessei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <img src="img/wpp.png" alt="" width="56" height="56">
+  </a>
+
+  <script src="js/script.js" defer></script>
 </body>
 </html>
